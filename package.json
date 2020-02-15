@@ -7,7 +7,8 @@
     "dev": "webpack-dev-server --config ./webpack.config.js",
     "prod": "NODE_ENV=production webpack-dev-server --config ./webpack.config.js",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build": "webpack"
   },
   "dependencies": {
     "@material-ui/core": "^4.6.0",
