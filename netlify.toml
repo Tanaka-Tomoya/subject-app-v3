@@ -1,0 +1,10 @@
+[build]
+  publish = "/dist"
+
+# 本番環境のビルドコマンド
+[context.production]
+  command = "yarn && yarn dev"
+
+# ステージング環境のビルドコマンド
+[context.staging]
+  command = "yarn && yarn dev"
