@@ -118,7 +118,7 @@ const TimeTable: FC<{}> = () => {
         <FormContainer>
           <InputBase
             autoFocus={true}
-            onBlur={handleChange}
+            onChange={handleChange}
             fullWidth={true}
             value={state[currentBlock] ? state[currentBlock] : ''}
           />

@@ -17,3 +17,7 @@ function loadStories() {
 }
 
 configure(loadStories, module);
+
+const StorybookWrapper = storyFn => (
+  <YourContextProvider>{storyFn()}</YourContextProvider>
+);
